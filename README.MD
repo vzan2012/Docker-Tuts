@@ -1,6 +1,6 @@
 # Docker - Tutorials
 
-The below commands are for the reference and that I have learnt the courses authored by Stephen Grider.
+The below commands are for the reference and that I have learnt from the course authored by Stephen Grider.
 
 ---
 
