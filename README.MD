@@ -104,3 +104,21 @@ docker run redis
   ```console
   docker run busybox sh
   ```
+
+- Build a docker image
+
+  ```console
+  docker build .
+  ```
+
+- Build a docker image with the tag name
+
+  ```console
+  docker build -t <<docker_username>>/<<image_name>> .
+  ```
+
+- Run or Execute the Docker container
+
+  ```console
+  docker run -p <<mymachine_port_number>>:<<container_port_number>> <<image_name>>
+  ```
