@@ -139,13 +139,19 @@ docker run redis
   ```
 
 - Stop multiple containers running
+
   ```console
   docker-compose down
   ```
 
-Docker restart policies are **_no_, _always_, _on-failure_, _unless-stopped_**.
+- Docker restart policies are **_no_, _always_, _on-failure_, _unless-stopped_**.
 
 - Docker Compose - container status
   ```console
   docker-compose ps
+  ```
+- To specify the alternate file to be used.
+  **Example:** _Dockerfile.dev_
+  ```console
+  docker build -f Dockerfile.dev .
   ```
