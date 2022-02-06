@@ -122,3 +122,30 @@ docker run redis
   ```console
   docker run -p <<mymachine_port_number>>:<<container_port_number>> <<image_name>>
   ```
+
+- For multiple local containers use the _docker-compose_
+
+  _docker run <<image_name>>_ equivalent to
+
+  ```console
+  docker-compose up
+  ```
+
+  ```console
+  docker build .
+  docker run <<image_name>>
+
+  docker-compose up --build
+  ```
+
+- Stop multiple containers running
+  ```console
+  docker-compose down
+  ```
+
+Docker restart policies are **_no_, _always_, _on-failure_, _unless-stopped_**.
+
+- Docker Compose - container status
+  ```console
+  docker-compose ps
+  ```
